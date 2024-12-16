@@ -10,17 +10,17 @@ Overall Information
 
 ---> In this project, we will work with a retail sales dataset that includes the following columns:
 
-## 1) Gender: The gender of the customer (Male/Female).
+1) Gender: The gender of the customer (Male/Female).
 
-## 2) Product Category: The type of product purchased (e.g., Beauty, Clothing, Electronics).
+2) Product Category: The type of product purchased (e.g., Beauty, Clothing, Electronics).
 
-## 3) Age: The age of the customer.
+3) Age: The age of the customer.
 
-## 4) Quantity: The quantity of products purchased.
+4) Quantity: The quantity of products purchased.
 
-## 5) Price per Unit: The price of a single unit of the product.
+5) Price per Unit: The price of a single unit of the product.
 
-## 6) Total_Sales: The total sales amount for the transaction.
+6) Total_Sales: The total sales amount for the transaction.
 
 --> The analysis will focus on exploring relationships between the features (independent variables) and the target variable (Total_Sales). We will also use machine learning algorithms to predict sales and evaluate the performance of various models, including Ridge and Lasso Regression, Random Forest, and XGBoost.
 
