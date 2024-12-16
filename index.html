@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Prediction App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* Inline CSS for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        fieldset {
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        legend {
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, button {
+            width: 100%;
+            margin-top: 5px;
+            padding: 8px;
+            font-size: 14px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .result {
+            margin-top: 20px;
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Prediction App</h1>
+    <form action="/predict" method="post">
+        <fieldset>
+            <legend>Enter Details</legend>
+
+            <!-- Input field for Gender -->
+            <label for="gender">Gender:</label>
+            <select id="gender" name="Gender" required>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select>
+
+            <!-- Input field for Product Category -->
+            <label for="product_category">Product Category:</label>
+            <select id="product_category" name="Product_Category" required>
+                <option value="0">Electronics</option>
+                <option value="1">Furniture</option>
+                <option value="2">Clothing</option>
+            </select>
+
+            <!-- Numeric input fields for Age, Quantity, and Price per Unit -->
+            <label for="age">Age (in years):</label>
+            <input type="number" id="age" name="Age" step="1" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="Quantity" step="1" required>
+
+            <label for="price_per_unit">Price per Unit (USD):</label>
+            <input type="number" id="price_per_unit" name="Price_per_Unit" step="0.01" required>
+
+            <button type="submit">Predict</button>
+        </fieldset>
+    </form>
+
+    <!-- Display prediction result -->
+    {% if prediction_text %}
+        <div class="result">
+            <h3>{{ prediction_text }}</h3>
+        </div>
+    {% endif %}
+
+</body>
+</html>
