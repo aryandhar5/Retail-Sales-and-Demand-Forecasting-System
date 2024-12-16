@@ -1,0 +1,81 @@
+/* static/styles.css */
+
+/* Overall body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header style */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles for the form */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Input, select, button styling */
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style for select dropdown */
+select {
+    background-color: #fff;
+}
+
+/* Button style */
+button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result display */
+.result {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+    margin-top: 30px;
+}
+
+/* Optional: Style for a logo or any additional images in the page */
+img.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100px;
+}
