@@ -6,7 +6,7 @@ The retail industry is a highly competitive sector where businesses need to opti
 
 This project aims to analyze a retail sales dataset and build a machine learning model to predict the total sales for each transaction based on various factors, such as the product category, customer demographics (age, gender), quantity sold, and price per unit. The goal is to provide insights into the factors that drive sales and develop a predictive model that can help businesses forecast future sales with high accuracy.
 
-## Overall Information
+Overall Information
 
 ---> In this project, we will work with a retail sales dataset that includes the following columns:
 
