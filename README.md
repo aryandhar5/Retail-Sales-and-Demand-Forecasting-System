@@ -1,5 +1,8 @@
 ## **Project Title: Retail Sales Data Analysis and Prediction**
 
+![Screenshot 2024-12-17 133424](https://github.com/user-attachments/assets/951f7d10-fdb4-4d85-9637-3a45d2a38824)
+
+
 ## Problem Statement
 
 The retail industry is a highly competitive sector where businesses need to optimize their operations, marketing strategies, and inventory management to stay ahead. A major factor influencing retail success is the accurate prediction of sales, which can help in better decision-making, inventory management, and customer targeting.
