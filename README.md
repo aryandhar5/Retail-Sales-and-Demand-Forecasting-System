@@ -10,7 +10,7 @@
 
 - Suboptimal Revenue Growth: Inaccurate sales predictions impact pricing strategies, budget allocations, and profitability.
 
-# Key Questions to Address:
+## Key Questions to Address:
 
 - What factors (age, gender, product category, price, quantity) influence total sales?
 
