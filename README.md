@@ -38,27 +38,27 @@
 
 ### Data Analysis & Cleaning:
 
-Identified trends, missing values, and inconsistencies.
+- Identified trends, missing values, and inconsistencies.
 
-Normalized and transformed data for better interpretability.
+- Normalized and transformed data for better interpretability.
 
 ### Visualization & Insights (Power BI):
 
-Developed dashboards showcasing sales trends, revenue breakdown, and customer segmentation.
+- Developed dashboards showcasing sales trends, revenue breakdown, and customer segmentation.
 
-Provided insights on top-selling categories and demographic preferences.
+- Provided insights on top-selling categories and demographic preferences.
 
 ### Predictive Modeling (Python):
 
-Built regression models to predict sales based on influencing factors.
+- Built regression models to predict sales based on influencing factors.
 
-Evaluated model performance using metrics like RMSE and R-squared.
+- Evaluated model performance using metrics like RMSE and R-squared.
 
 ### Business Insights & Recommendations:
 
-Identified key drivers of sales.
+- Identified key drivers of sales.
 
-Recommended pricing strategies and targeted marketing approaches based on model insights.
+- Recommended pricing strategies and targeted marketing approaches based on model insights.
 
 ## Tools & Technologies Used
 
@@ -84,9 +84,10 @@ Recommended pricing strategies and targeted marketing approaches based on model 
 
 - Enhance Model Accuracy: Explore deep learning techniques and advanced feature engineering.
 
-Automate Dashboard Updates: Integrate real-time data streaming for dynamic reporting in Power BI.
+- Automate Dashboard Updates: Integrate real-time data streaming for dynamic reporting in Power BI.
 
-Conclusion
+# Conclusion
 
-This project provides a comprehensive approach to retail sales analysis, combining machine learning and business intelligence for strategic decision-making. By leveraging data-driven insights, businesses can optimize operations, enhance customer engagement, and maximize revenue growth.
+- This project provides a comprehensive approach to retail sales analysis, combining machine learning and business intelligence for strategic decision-making. By leveraging data-driven insights, businesses can optimize operations, enhance customer engagement, and maximize revenue growth.
+
 
