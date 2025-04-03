@@ -1,5 +1,25 @@
 # Retail Sales Prediction & Analysis
 
+## Business Problem
+
+- Retail businesses face challenges in accurately predicting sales due to fluctuating demand, varying customer preferences, and changing market trends. Inefficient forecasting can lead to:
+
+- Inventory Management Issues: Overstocking leads to high holding costs, while understocking results in lost sales opportunities.
+
+- Ineffective Marketing Strategies: Without understanding customer behavior, businesses struggle to optimize promotions and discounts.
+
+- Suboptimal Revenue Growth: Inaccurate sales predictions impact pricing strategies, budget allocations, and profitability.
+
+# Key Questions to Address:
+
+- What factors (age, gender, product category, price, quantity) influence total sales?
+
+- How can businesses leverage predictive analytics to optimize inventory and marketing strategies?
+
+- Can a machine learning model provide accurate sales forecasts to improve revenue planning?
+
+- What insights can Power BI dashboards provide for decision-makers to act on trends and customer behavior?
+
 ## Project Overview
 
 - The retail industry is highly competitive, requiring businesses to optimize operations, enhance marketing strategies, and improve inventory management. A key factor in driving retail success is the ability to accurately predict sales, enabling better decision-making and customer targeting.
