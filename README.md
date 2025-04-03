@@ -1,5 +1,13 @@
 # Retail Sales Prediction & Analysis
 
+
+## Flask App
+![download (3)](https://github.com/user-attachments/assets/07b73bf3-6f92-4bd9-ae4e-9f523463401f)
+
+## PowerBI Dashboard
+![Screenshot 2025-04-03 134706](https://github.com/user-attachments/assets/d2941933-ad14-4b31-8a7d-b1d041694782)
+
+
 ## Business Problem
 
 - Retail businesses face challenges in accurately predicting sales due to fluctuating demand, varying customer preferences, and changing market trends. Inefficient forecasting can lead to:
